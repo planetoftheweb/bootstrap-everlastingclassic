@@ -1,0 +1,96 @@
+body {
+	background: #158D90;
+}
+
+header {
+	font-family: 'Droid Serif', Georgia, serif;
+	font-size:  1.2em;
+	padding: 0 10%;
+}
+
+header h1 {
+	font-family: "Lobster two",georgia, serif;
+	color: #E2E6AC;
+}
+
+header p {
+	margin-bottom: 25px;
+}
+
+.carousel {
+	position: relative;
+	border: 10px solid #FFF;
+
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	transform: rotate(1deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+	zoom: 1;
+	-webkit-box-shadow: 10px 10px 20px #002624;
+	-moz-box-shadow: 10px 10px 20px #002624;
+	box-shadow: 10px 10px 20px #002624;
+}
+
+.carousel .head {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	z-index: 10;
+	color: white;
+	font-family: "Lobster two";
+	font-size: 2.5em;
+	text-shadow: 2px 2px 5px #555;
+}
+
+.carousel .item {
+	max-height: 400px;
+	margin: 0 auto;
+}
+
+
+.carousel .item img {
+	margin: 0 auto;
+}
+
+.carshow {
+	font-family: 'Droid Serif', Georgia, serif;
+`}
+
+.carshow h2 {
+	font-family: "Lobster two";
+	font-weight: normal;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #E2E6AC;
+	font-size: 1.9em;
+	height: 30px;
+}
+	
+.carshow h3 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	color: #712525;
+	height: auto;
+}
+
+.carshow p {
+	font-size:  1.2em;
+	line-height: 1.5em;
+}
+
+.carshow img {
+	border: 5px solid #FFF;
+	-webkit-box-shadow: 5px 5px 10px #002624;
+	-moz-box-shadow: 5px 5px 10px #002624;
+	box-shadow: 5px 5px 10px #002624;
+	margin-top: 20px;
+}
+
+a.brand {
+	font: bold 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
